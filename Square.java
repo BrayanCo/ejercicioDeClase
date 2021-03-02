@@ -15,6 +15,4 @@ public class Square extends Figure{
 	public double takePerimetro(){
 		return lado * 4;
 	}
-
-
 }
