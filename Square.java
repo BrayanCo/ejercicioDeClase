@@ -1,4 +1,5 @@
 public class Square extends Figure{
+	public static final int LADOS_CUADRADO = 4;
 
 	private double lado;
 
@@ -15,4 +16,6 @@ public class Square extends Figure{
 	public double takePerimetro(){
 		return lado * 4;
 	}
+
+
 }
