@@ -10,4 +10,9 @@ public class Square extends Figure{
 	public double getArea(){
 		return lado * lado;
 	}
+
+	@Override
+	public double takePerimetro(){
+		return lado * 4;
+	}
 }
